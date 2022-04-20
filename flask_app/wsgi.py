@@ -1,9 +1,10 @@
+from utils import BERTClass
 from transformers import AutoTokenizer
 from app import server
 from flask import current_app
-from flask_app.app import BERTClass
-device = 'cuda' if torch.cuda.is_available() else 'cpu'
 import torch
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+
 
 if __name__ == "__main__":
     with server.app_context():
