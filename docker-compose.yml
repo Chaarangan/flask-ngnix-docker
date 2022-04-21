@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  flask_app:
-    container_name: emotional-analysis
+  flaskapp:
+    container_name: flaskapp
     restart: always
     build: ./flaskapp
     ports:
