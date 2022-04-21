@@ -1,6 +1,7 @@
 # flask-ngnix-docker
 
 ## Usage
+To compose the docker image stacks, execute the following:
 ```
 bash run_docker.sh
 ```
