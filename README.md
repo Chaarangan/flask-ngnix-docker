@@ -5,13 +5,13 @@
 bash run_docker.sh
 ```
 
-After composed, check the API in Postman:
-### Get
+After composed, try the following APIs in Postman:
+- Get
 ```
 http://localhost:8000/
 ```
 
-### POST
+- POST
 ```
 http://localhost:8000/predict
 ```
